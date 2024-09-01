@@ -1,0 +1,173 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock title %} 
+
+{% block body %}
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JavaScript library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin: 1% 12%; z-index: 100;">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="http://127.0.0.1:8000/Universities/IIS-Bangalore"><img src="/static/IIS--Indian-Institute-of-Science-Bangalore.png" class="d-block w-100" alt="..."></a>
+      <a href="http://127.0.0.1:8000/Universities/IIS-Bangalore" style="text-decoration: none;">
+        <div class="carousel-caption d-none d-md-block" style=" position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        background-color: transparent;
+        color: #fff;
+        text-align: left;
+        font-size: 20px;
+        background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8));
+        color: rgb(208 234 190);
+        padding: 20px;">
+          <h4 style="margin-top: 90px;"><u style="color: rgb(208 234 190) !important" >Indian Institute of Science</u></h4>
+          <p style="color: rgb(208 234 190) !important">IISc’s reputation and pre-eminence ensures that it<br> attracts the best young faculty members trained in the <br>best laboratories around the world. In 2018, IISc was <br>selected as an Institution of Eminence (IoE) by the <br>Government of India, and it consistently figures <br>among the top Indian institutions in world university rankings.</p>
+          <p style="color: rgb(208 234 190) !important">IISc’s research output is diverse, interdisciplinary and cuts <br> across traditional boundaries. The Institute has over 42 <br>academic departments and centres that come under six divisions.</p>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </a>
+    </div> 
+    
+    <div class="carousel-item">
+      <a href="http://127.0.0.1:8000/Universities/Jawaharlal-Nehru-University"><img src="/static/jnu.png" class="d-block w-100" alt="..."></a>
+      <a href="http://127.0.0.1:8000/Universities/Jawaharlal-Nehru-University" style="text-decoration: none;">
+      <div class="carousel-caption d-none d-md-block" style=" position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 0;
+      background-color: transparent;
+      color: #fff;
+      text-align: left;
+      font-size: 20px;
+      background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8));
+      color: rgb(208 234 190);
+      padding: 20px;">
+        <h4 style="margin-top: 90px;"><u style="color: rgb(208 234 190) !important">Jawaharlal Nehru University</u></h4>
+        <p style="color: rgb(208 234 190) !important">Jawaharlal Nehru University is the foremost university in <br>India, and a world-renowned centre for teaching and <br>research. Ranked number one in India by the National<br> Assessment and Accreditation Council (NAAC). JNU was <br> ranked no 3 among all universities in India by the National <br>Institutional Ranking Framework, in 2016 and no 2 in 2017.<br> It also received the Best University Award from the President <br>of India in 2017.</p>
+        <p style="color: rgb(208 234 190) !important"> The University brings out four research journals which have <br>high academic visibility in India and abroad.</p>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </a>
+    </div>
+
+    <div class="carousel-item">
+      <a href="http://127.0.0.1:8000/Universities/Jamia-Millia-Islamia-University/"><img src="/static/jamia-millia-islamia-university.png" class="d-block w-100" alt="..."></a>
+      <a href="http://127.0.0.1:8000/Universities/Jamia-Millia-Islamia-University/" style="text-decoration: none;">
+      <div class="carousel-caption d-none d-md-block" style=" position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 0;
+      background-color: transparent;
+      color: #fff;
+      text-align: left;
+      font-size: 20px;
+      background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8));
+      color: rgb(208 234 190);
+      padding: 20px;">
+        <h4 style="margin-top: 90px;"><u style="color: rgb(208 234 190) !important">Jamia Milia Islamia University</u></h4>
+        <p style="color: rgb(208 234 190) !important">Jamia Millia Islamia (also known as JMI) is a central university<br> located in Delhi. It was established in 1920 and is recognised <br>by the UGC. It is a member of the AIU and is accredited with <br>‘A’ Grade by the NAAC. Jamia Millia Islamia ranks 3 and 7 <br>under the 'University' and 'Law' categories, respectively, by<br> the NIRF 2022 Rankings. The university also ranked 9 under <br>'Architecture' and 16 under 'Dental' categories by the NIRF 2022.</p>
+        <p style="color: rgb(208 234 190) !important"> It offers 59 undergraduate programmes, 18 postgraduate <br> diploma programmes, and 82 master programmes and diplomas.</p>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" data-ride="carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" data-ride="carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </a>
+    </div>
+    
+    <div class="carousel-item">
+      <a href="http://127.0.0.1:8000/Universities/Jadavpur-University/"><img src="/static/jadavpur-uni.png" class="d-block w-100" alt="..."></a>
+      <a href="http://127.0.0.1:8000/Universities/Jadavpur-University/" style="text-decoration: none;">
+      <div class="carousel-caption d-none d-md-block" style=" position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 0;
+      background-color: transparent;
+      color: #fff;
+      text-align: left;
+      font-size: 20px;
+      background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8));
+      color: rgb(208 234 190);
+      padding: 20px;">
+        <h4 style="margin-top: 90px;"><u style="color: rgb(208 234 190) !important">Jadavpur University</u></h4>
+        <p style="color: rgb(208 234 190) !important">In recognition of its commitment to research and education <br> in the fields of engineering and technology, Jadavpur University <br>was among 127 institutions to be given financial support<br> by the World Bank through its Technical Education Quality <br>Improvement Programme.</p>
+        <p style="color: rgb(208 234 190) !important"> It offers 39 undergraduate programmes, 57 postgraduate, <br>and courses for masters in philosophy, PhDs and diplomas.<br>Despite being classed as a unitary university, which <br>usually means there is only one campus, Jadavpur has two.</p>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" data-ride="carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" data-ride="carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </a>
+    </div>
+    
+        
+    <div class="carousel-item">
+      <a href="http://127.0.0.1:8000/Universities/Amrita-Vishwa-Vidyapeetham/"><img src="/static/amritaUni.png" class="d-block w-100" alt="..."></a>
+      <a href="http://127.0.0.1:8000/Universities/Amrita-Vishwa-Vidyapeetham/" style="text-decoration: none;">
+      <div class="carousel-caption d-none d-md-block" style=" position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 0;
+      background-color: transparent;
+      color: #fff;
+      text-align: left;
+      font-size: 20px;
+      background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8));
+      color: rgb(208 234 190);
+      padding: 20px;">
+        <h4 style="margin-top: 90px;"><u style="color: rgb(208 234 190) !important">Amrita Vishwa Vidyapeetham University</u></h4>
+        <p style="color: rgb(208 234 190) !important">Amrita Vishwa Vidyapeetham is a multi-disciplinary, <br>research-intensive, private university, educating a vibrant<br> student population of over 24,000 by 1700+ strong faculty.<br> Accredited with the highest possible ‘A++’ grade by NAAC, <br>Amrita offers more than 250 UG, PG, and Ph.D. programs in <br>Engineering, Management, and Medical Sciences including<br> Ayurveda, Life Sciences, Physical Sciences, Agriculture Sciences,<br> Arts & Humanities, and Social & Behavioral Sciences.</p>
+        <p style="color: rgb(208 234 190) !important">Amrita has emerged as the fifth best university in the National<br> Institutional Ranking Framework (NIRF) Rankings 2022. <br>Amrita School of Medicine, Kochi has been ranked 8th Best <br>in Medicine in NIRF Rankings 2022.</p>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" data-ride="carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" data-ride="carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </a>
+    </div>  
+</div>
+{% endblock body %}
